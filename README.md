@@ -28,7 +28,7 @@ print(str) # => "Hell"
 
 "123a123b123c123d".replaceAll(regex: "[0-9]", replaceWith: "")
 # => "abcd"
-// func replaceAll(regex: String, replaceWith: String, options: NSRegularExpression.MatchingOptions) -> String
+// func replaceAll(regex: String, replaceWith: String, options: NSRegularExpression.MatchingOptions = []) -> String
 
 
 "12345".took() # => "2345"
@@ -43,7 +43,7 @@ print(str) # => "Hell"
 
 "1a2a3a4a5a6".without("a") # => "123456"
 "1a2a3a4a5a6".no("a") # => "123456"
-# without = no
+// without = no
 
 "Star".repeats(forHowManyTimes: 2)
 # => "StarStar"

@@ -26,9 +26,9 @@ print(str) # => "Hell"
 "password@".matches(regex: "^[a-zA-Z0-9]+$")
 # => false
 
-"123a123b123a123d".replaceAll(regex: "[0-9]", replaceWith: "")
+"123a123b123c123d".replaceAll(regex: "[0-9]", replaceWith: "")
 # => "abcd"
-# func replaceAll(regex: String, replaceWith: String, options: NSRegularExpression.MatchingOptions) -> String
+// func replaceAll(regex: String, replaceWith: String, options: NSRegularExpression.MatchingOptions) -> String
 
 
 "12345".took() # => "2345"

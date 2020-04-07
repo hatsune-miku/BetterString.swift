@@ -1,5 +1,6 @@
 # BetterString.swift
-String extension for Swift 5. Make strings as simple as it should be. Get rid of Range, Index, ...
+String extension for Swift 5. Make strings as simple as it should be.
+## Get rid of Range, Index, ...
 
 ```swift
 "google.com".ensureStarts(with: "https://")
